@@ -1,1 +1,1 @@
-# Latent-Thinking-Optimization-LTO-
+# Latent-Thinking-Optimization-LTO
