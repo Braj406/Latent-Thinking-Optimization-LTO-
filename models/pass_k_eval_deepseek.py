@@ -14,7 +14,7 @@ sys.path.append('/content/drive/MyDrive/Latent Thinking Optimization/Deepseek Mo
 # (Adjust the path above if your metrics.py is stored in a shared/parent directory)
 
 # 2. Import the metric from your refactored repo
-from pass_k import calculate_pass_at_k
+from metrics import calculate_pass_at_k
 
 # 3. Define DeepSeek Paths
 humaneval_path = '/content/drive/MyDrive/chumaneval_lto_dataset.pt'
