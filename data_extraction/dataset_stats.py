@@ -7,7 +7,7 @@ def print_dataset_stats(dataset_path):
     Accepts the exact path to the dataset file.
     """
     if not os.path.exists(dataset_path):
-        print(f"⚠️ Error: Could not find the file at '{dataset_path}'.")
+        print(f"Error: Could not find the file at '{dataset_path}'.")
         print("Check if the script has saved its first checkpoint yet!")
         return
 
