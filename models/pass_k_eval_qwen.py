@@ -4,6 +4,7 @@ from collections import defaultdict
 from sklearn.model_selection import train_test_split
 from google.colab import drive
 import sys
+import math
 
 # 1. Mount Drive & Add Src to Path
 print("Mounting Google Drive...")
@@ -11,7 +12,7 @@ drive.mount('/content/drive', force_remount=True)
 sys.path.append('/content/drive/MyDrive/Latent Thinking Optimization/Qwen Model')
 
 # 2. Import the metric from your newly refactored repo
-from pass_k import calculate_pass_at_k
+from metrics import calculate_pass_at_k
 
 # 3. Define Paths
 humaneval_path = '/content/drive/MyDrive/chumaneval_lto_dataset_qwenpt'
