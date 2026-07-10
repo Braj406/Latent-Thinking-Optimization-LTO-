@@ -1,8 +1,0 @@
-# Ignore dataset files and model weights
-*.pt
-*.pth
-*.h5
-
-# Ignore Python cache
-__pycache__/
-*.pyc
